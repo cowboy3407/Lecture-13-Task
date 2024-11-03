@@ -418,7 +418,98 @@ input:hover {
     height: 32px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1400px){
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     
+    .container {
+        width: 100vw;
+    }
+     
+   .mtavari {
+    width: 100vw;
+   }
+
+    .bck3 {
+        width: 120vw;
+    }
+
+    .grow {
+        width: 120vw;
+    }
+
+   .be {
+    padding-left: 50px;
+   }   
+}
+
+@media (max-width: 1250px){
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     
+    .container {
+        padding-left: 150px;
+    }
+     
+   .mtavari {
+    width: 100vw;
+   }
+
+    .bck3 {
+        width: 120vw;
+    }
+
+    .grow {
+        width: 100vw;
+        justify-content: center;
+    }
+    
+    .fb {
+        padding-right: 450px;
+    }
+
+   .fcont {
+    padding-right: 300px;
+   }
+
+   .be {
+    padding-left: 50px;
+   }   
+}
+
+
+
+@media  (max-width: 1200px) {
+    
+    body {
+        padding-left: 50px;
+    }
+
+    
+    .cat {
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 170px;
+        row-gap: 20px;
+    }
+    
+
+}
+
+
+@media (max-width: 600px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+     
 
     .mtavari {
         display: flex;
@@ -428,7 +519,7 @@ input:hover {
 
     .container {
         height: 4649px;
-        width: 400px;
+        width: 100vw;
         pointer-events: none;
         overflow: hidden;
     }
@@ -675,8 +766,10 @@ input:hover {
     }
 
     .bck3 {
-        width: 100%;
+        width: 100vw;
         height: 850px;
+        margin-top: 250px; 
+        z-index: 0;   
     }
 
     .conteb {
@@ -685,12 +778,15 @@ input:hover {
         flex-direction: column-reverse;
         margin-top: 0px;
         column-gap: 0px;
+        margin-top: 250px;
+        z-index: 1;
     }
 
 
     .be {
         width: 320px;
         height: 295px;
+        position: relative;
     }
 
     .be1 {
