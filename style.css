@@ -376,6 +376,11 @@ input:hover {
     padding-bottom: 26px;
 }
 
+.last {
+    display: flex;
+    column-gap: 40px;
+}
+
 .co2 {
     width: 340px;
     height: 72px;
@@ -418,126 +423,12 @@ input:hover {
     height: 32px;
 }
 
-@media (max-width: 1400px){
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-     
-    .container {
-        width: 100vw;
-    }
-     
-   .mtavari {
-    width: 100vw;
-   }
-
-    .bck3 {
-        width: 120vw;
-    }
-
-    .grow {
-        width: 120vw;
-    }
-
-   .be {
-    padding-left: 50px;
-   }   
-}
-
-@media (max-width: 1250px){
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-     
-    .container {
-        padding-left: 150px;
-    }
-     
-   .mtavari {
-    width: 100vw;
-   }
-
-    .bck3 {
-        width: 120vw;
-    }
-
-    .grow {
-        width: 100vw;
-        justify-content: center;
-    }
-    
-    .fb {
-        padding-right: 450px;
-    }
-
-   .fcont {
-    padding-right: 300px;
-   }
-
-   .be {
-    padding-left: 50px;
-   }   
-}
-
-
-
-@media  (max-width: 1200px) {
-    
-    body {
-        padding-left: 50px;
-    }
-
-    
-    .cat {
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 170px;
-        row-gap: 20px;
-    }
-    
-
-}
-
-
-@media (max-width: 600px) {
-
-    body {
-        display: flex;
-        justify-content: center;
-    }
-     
-
-    .mtavari {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@media (max-width: 600px){
 
     .container {
-        height: 4649px;
-        width: 100vw;
-        pointer-events: none;
+        height: 600vh;
         overflow: hidden;
-    }
-
-    .header {
-        height: 24px;
-        width: 327px;
-        margin-top: 24px;
-    }
-
-    .btn {
-        width: 80px;
-        height: 24px;
-        font-size: 9.41px;
-        line-height: 12.82px;
-        border-radius: 11.76px;
-        border: 0.59px solid #FF52C1;
-        color: white;
+        align-items: center;
     }
 
     .logo1 {
@@ -545,331 +436,311 @@ input:hover {
         height: 16px;
     }
 
-
-    .main {
-        width: 296px;
-        height: 581px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+    .btn {
+        width: 80px;
+        height: 23.5px;
+        font-size: 9.4px;
+        border-radius: 12px;
+       
     }
-
-
+    .main {
+        height: 581px;
+        width: 85vw;
+    }
+    
+    
     .m1 {
-        margin-top: 0px;
         width: 280px;
-        height: 72px;
         font-size: 24px;
         line-height: 36px;
     }
-
+    
     .m2 {
         width: 296px;
         height: 84px;
         font-size: 14px;
-        font-weight: 400;
         line-height: 21px;
     }
-
+    
     .m3 {
         width: 200px;
         height: 40px;
-        border-radius: 20px;
         font-size: 12px;
         line-height: 18px;
+        border-radius: 20px;
     }
-
-
+    
+    
     .m4 {
         width: 296px;
         height: 209px;
     }
 
+   
     .cat {
-        width: 160px;
+        width: 40vw;
         height: 356px;
-        display: flex;
-        justify-content: space-between;
         flex-direction: column;
     }
-
+    
     .bc1 {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        width: 160px;
         height: 142px;
-    }
-
-    .bc2 {
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
         width: 160px;
-        height: 126px;
     }
-
-    .c6 {
-        width: 31px;
-        height: 31px;
+    
+    .bc2 {
+        height: 160px;
+        width: 126px;
     }
-
-    .c2 {
-        font-size: 60.95px;
-        font-weight: 700;
-        line-height: 91.43px;
-    }
-
-    .c4 {
-        font-size: 53.52px;
-        font-weight: 700;
-        line-height: 80.28px;
-    }
-
-    .c5 {
-        font-size: 13.38px;
-        line-height: 20.07px;
-    }
-
-    .c3 {
-        font-size: 15.24px;
-        line-height: 22.86px;
-    }
-
+    
+    
     .c1 {
-        height: 31px;
-        width: 31px;
+        height: 21px;
+        width: 32px;
     }
-
+    
+    .c6 {
+        width: 28px;
+        height: 29px;
+    }
+    
+    .c2 {
+        height: 92px;
+        width: 160px;
+        font-size: 61px;
+        line-height: 91.5px;
+    }
+    
+    .c4 {
+        width: 160px;
+        height: 81px;
+        font-size: 53.5px;
+        line-height: 80px;
+    }
+    
+    .c5 {
+        width: 93px;
+        height: 21px;
+        font-size: 13.3px;
+        line-height: 20px;
+    }
+    
+    .c3 {
+        width: 155px;
+        height: 23px;
+        font-size: 15.25px;
+        line-height: 22.8px;
+    }
 
     .grow {
-        width: 789px;
+        width: 100vw;
         height: 763px;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
         flex-direction: column-reverse;
-        position: relative;
-        overflow: hidden;
+        justify-content: center;
     }
-
+    
     .gb1 {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        width: auto;
-        height: auto;
+        justify-content: center;
+        width: 520px;
+        height: 158px;
         z-index: 1;
+        margin-left: 45%;
     }
-
+    
     .gb2 {
         z-index: 1;
-        width: 267px;
-        height: 202px;
     }
-
+    
     .g1 {
-        font-size: 20px;
-        line-height: 30px;
         width: 152px;
         height: 30px;
+        font-size: 20px;
+        line-height: 30px;
     }
-
+    
     .g2 {
+        font-size: 14px;
         width: 320px;
         height: 84px;
-        font-weight: 400;
         line-height: 21px;
     }
-
+    
     .gimg {
-        width: 258.61px;
-        height: 211.56px;
+        width: 280px;
+        height: 280px;
     }
-
+    
     .bck1 {
-        z-index: 0;
-        align-items: center;
         width: 789px;
         height: 763px;
-        position: absolute;
     }
+
 
     .flowing {
-        width: 320px;
+        width: 85vw;
         height: 429px;
-        display: flex;
-        align-items: center;
     }
-
+    
     .fcont {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        row-gap: 85px;
+        column-gap: 250px;
         flex-direction: column;
     }
-
+    
     .ppl {
         width: 265.5px;
         height: 189px;
-    }
 
+    }
+    
     .fb {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: auto;
-        height: auto;
+        width: 85vw;
+        height: 134px;
     }
-
+    
     .f1 {
         width: 236px;
         height: 30px;
         font-size: 20px;
         line-height: 30px;
-
     }
-
+    
     .f2 {
         width: 320px;
         height: 63px;
-        font-size: 14px;
         line-height: 21px;
+        font-size: 14px;    
     }
 
     .ready {
-        width: 344px;
+        width: 90vw;
         height: 152px;
+        row-gap: 40px;
     }
-
+    
     .r1 {
         width: 344px;
         height: 72px;
         font-size: 24px;
         line-height: 36px;
     }
-
+    
     .r2 {
         width: 200px;
         height: 40px;
-        border-radius: 20px;
         font-size: 12px;
         line-height: 18px;
+        border-radius: 20px;
     }
+
 
     .end {
-        width: 858px;
-        height: 400px;
+        width: 100vw;
+        height: 858px;
     }
-
+    
     .bck3 {
         width: 100vw;
-        height: 850px;
-        margin-top: 250px; 
-        z-index: 0;   
+        height: 858px;
     }
-
+    
     .conteb {
-        display: flex;
-        position: relative;
-        flex-direction: column-reverse;
-        margin-top: 0px;
-        column-gap: 0px;
-        margin-top: 250px;
-        z-index: 1;
+       height: 700px;
+       width: 90vw;
+       flex-direction: column-reverse;
+       align-items: center;
+       justify-content: center;
+       row-gap: 104px;
     }
-
-
+    
+    
     .be {
-        width: 320px;
-        height: 295px;
-        position: relative;
+        width: 85vw;
+        height: 318px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
-
+    
     .be1 {
-        margin-top: 120px;
-        width: 320px;
+        width: 85vw;
         height: 286px;
     }
-
+    
     .co5 {
         width: 128px;
         height: 30px;
         font-size: 20px;
         line-height: 30px;
     }
-
+    
     .co6 {
         width: 320px;
         height: 96px;
-        font-size: 14px;
-        line-height: 24px;
     }
-
+    
     input {
         width: 320px;
         height: 48px;
-        border-radius: 6px;
     }
 
-
+    .lastbtn {
+        display: flex;
+        justify-content: flex-end;
+        width: 320px;
+        
+    }
+    
     .emailb {
         width: 160px;
         height: 48px;
         background-color: #FF52C1;
-        border: none;
         font-size: 16px;
         font-weight: 700;
         line-height: 24px;
         border-radius: 5px;
-        margin-left: 160px;
+        color: white;
     }
-
-
-    .co7 {
-        flex-direction: column;
-        row-gap: 16px;
-    }
-
-
+    
     .co1 {
         width: 200px;
         height: 32px;
     }
 
+    .co7 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
     .co2 {
         width: 320px;
         height: 72px;
         font-size: 14px;
-        line-height: 24px;
     }
-
+    
     .co3 {
-        font-size: 14px;
-        line-height: 24px;
-        width: 199px;
+        width: 250px;
         height: 24px;
     }
-
+    
     .co4 {
-        width: 199px;
+        width: 201px;
         height: 24px;
-        font-size: 14px;
-        line-height: 24px;
     }
 
-
+    .last {
+        flex-direction: column;
+    }
+    
+    
     .icon {
-        width: 18px;
-        height: 18px;
+        width: 24px;
+        height: 24px;
     }
-
+    
     .soc {
         width: 104px;
         height: 23px;
     }
-
 }
